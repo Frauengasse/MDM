@@ -15,7 +15,7 @@ Otherwise it will fail with an error message like _invoke-webrequest explore mod
 
 It looks like this (during my testings, it works like a charm)
 
-```ps
+```Powershell
 $wingetVersion = "1.21.0.0"
 # winget allready installed? check againt Version ....
 $hasPackageManager = Get-AppPackage -name 'Microsoft.DesktopAppInstaller'
