@@ -1,21 +1,17 @@
 # MDM Intune Stuff of our school
 
-# Backgrounds
+## Backgrounds
 
 Are some Login Backgrounds made with Blender.
 
-# Working Stuff
+## Working Stuff
 
-## PS winget
-
-If using `Invoke-WebRequest` be aware if using PS Version < 6 you have to use the Parameter `-UseBasicParsing`.  
-Otherwise it will fail with an error message like _invoke-webrequest explore module missing_.
-
-## Installing latest winget
+### Installing latest winget
 
 I'm using the great Install Script from [https://github.com/asheroto/winget-install](https://github.com/asheroto/winget-install/releases/latest/download/winget-install.ps1).
 
-In every Win32 Script I'm using the following Stuff (so im be sure to have allways winget installed)
+In every Win32 Script I'm using the following Stuff (so im be sure to have allways _winget_ installed).
+I'm also setting ENV Variables to call _winget_ from CLI.
 
 ```Powershell
 function Install-Winget {
