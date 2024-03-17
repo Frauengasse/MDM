@@ -90,3 +90,8 @@ Set-Owner-Everyone -Path $winappsPath
 Add-PATH-Variable -Path $winappsPath
 # winget done ====================================================
 ```
+
+# Installing Printers
+
+I'm using the greate script from [itelio.com - Raphael Baud](https://clouduncovered.itelio.com/themengebiete/intune/ip-drucker-installieren/).  
+By using this script, it's really simple to install Printer Drivers via Intune.
