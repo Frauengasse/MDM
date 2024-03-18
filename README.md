@@ -1,4 +1,4 @@
-# MDM Intune Stuff of our school
+# MDM Intune Stuff - The serverless school
 
 ## Backgrounds
 
